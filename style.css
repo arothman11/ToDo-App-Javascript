@@ -1,0 +1,90 @@
+body{
+  background-image: linear-gradient(to bottom right, #86A8E7, #D16BA5);
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.inputbtn input{
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  padding-left: 20px;
+  width: 300px;
+  font-size: 16px;
+  background-color: inherit;
+  border:1px solid black;
+  float: left;
+  margin-bottom: 30px;
+}
+
+::placeholder{
+  color: black;
+}
+
+.inputbtn #button{
+  font-family: 'Lato', sans-serif;
+  border:1px solid black;
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: inherit;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.tasks{
+  background-color: none;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type:none
+}
+
+li{
+  padding: 13px;
+  padding-bottom: 3px;
+  border-bottom:1px solid black;
+}
+
+li .closebtn{
+  border: none;
+  background-color: inherit;
+  position: relative;
+  right: 0;
+}
+
+li .checkbtn{
+  border: none;
+  background-color: inherit;
+  position: relative;
+  left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  .tasks{
+    font-size: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .inputbtn input{
+    font-size: 13px;
+    width: 200px;
+  }
+  .inputbtn #button{
+    font-size: 13px;
+  }
+}
